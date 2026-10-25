@@ -438,13 +438,13 @@ h2{font:700 clamp(36px,4.8vw,56px)/.98 var(--f-display);text-transform:uppercase
   <section class="section" id="projects">
     <div class="wrap">
       <div class="sec-head">
-        <p class="eyebrow">Projects · <span id="proj-count">12</span> shown</p>
+        <p class="eyebrow">Projects · <span id="proj-count">13</span> shown</p>
         <h2>Projects</h2>
         <p class="sec-intro">Home-lab security work, plant-floor improvements and community.</p>
       </div>
       <div class="filters" role="group" aria-label="Filter projects" id="filters">
-        <button class="chip" type="button" data-filter="all" aria-pressed="true">All <span class="n">12</span></button>
-        <button class="chip" type="button" data-filter="lab" aria-pressed="false">Security lab <span class="n">7</span></button>
+        <button class="chip" type="button" data-filter="all" aria-pressed="true">All <span class="n">13</span></button>
+        <button class="chip" type="button" data-filter="lab" aria-pressed="false">Security lab <span class="n">8</span></button>
         <button class="chip" type="button" data-filter="ot" aria-pressed="false">OT &amp; plant <span class="n">4</span></button>
         <button class="chip" type="button" data-filter="community" aria-pressed="false">Community <span class="n">1</span></button>
       </div>
@@ -462,16 +462,28 @@ h2{font:700 clamp(36px,4.8vw,56px)/.98 var(--f-display);text-transform:uppercase
             <ul class="tags"><li>Wazuh</li><li>Splunk</li><li>DigitalOcean</li><li>Raspberry Pi 500</li><li>MITRE ATT&amp;CK</li></ul>
           </div>
         </li>
+        <li class="proj" id="proj-rf" data-cat="lab">
+          <div class="proj-meta"><span class="cat">Security lab</span><span class="proj-role">Self-directed build</span></div>
+          <div class="proj-body">
+            <h3>RF &amp; wireless security toolkit</h3>
+            <p class="proj-sub">Flipper Zero, ESP32 boards and custom firmware</p>
+            <ul class="pts">
+              <li>Flashed a Flipper Zero with Momentum firmware and paired it with an ESP32 GPIO module running Marauder firmware for Wi-Fi and Bluetooth analysis.</li>
+              <li>Flashed a Cheap Yellow Display (ESP32 touchscreen board) with HaleHound and Bruce firmware, and set up an M5Stick with CC1101 and NRF24 radio add-ons.</li>
+              <li>Used the kit in a controlled home lab to study Wi-Fi, Bluetooth and sub-GHz reconnaissance techniques.</li>
+            </ul>
+            <ul class="tags"><li>Flipper Zero</li><li>Momentum</li><li>ESP32 Marauder</li><li>Cheap Yellow Display</li><li>HaleHound</li><li>Bruce</li><li>M5Stick</li></ul>
+          </div>
+        </li>
         <li class="proj" id="proj-pentest" data-cat="lab">
           <div class="proj-meta"><span class="cat">Security lab</span><span class="proj-role">Self-directed build</span></div>
           <div class="proj-body">
-            <h3>Portable pentest &amp; RF research kit</h3>
-            <p class="proj-sub">Kali Linux on a Steam Deck, plus wireless tooling</p>
+            <h3>Kali Linux on Steam Deck</h3>
+            <p class="proj-sub">Portable pentest platform booted from USB</p>
             <ul class="pts">
-              <li>Set up Kali Linux via USB boot on a Steam Deck as a portable platform for hands-on offensive-security practice.</li>
-              <li>Studied RF and network reconnaissance techniques in a controlled lab with a Flipper Zero (Momentum firmware), ESP32 Marauder and M5Stick.</li>
+              <li>Set up Kali Linux via USB boot on a Steam Deck as a portable platform for hands-on offensive-security practice, leaving the Deck's own OS untouched.</li>
             </ul>
-            <ul class="tags"><li>Kali Linux</li><li>Steam Deck</li><li>Flipper Zero</li><li>ESP32 Marauder</li><li>M5Stick</li></ul>
+            <ul class="tags"><li>Kali Linux</li><li>Steam Deck</li><li>USB boot</li></ul>
           </div>
         </li>
         <li class="proj" id="proj-cyberdeck" data-cat="lab">
@@ -733,7 +745,7 @@ h2{font:700 clamp(36px,4.8vw,56px)/.98 var(--f-display);text-transform:uppercase
         </div>
         <div class="skill">
           <h3>Network security</h3>
-          <ul class="tags"><li>Subnetting</li><li>VLAN concepts</li><li>Network segmentation</li><li>DNS filtering</li><li>Router access controls</li><li>EDR/XDR concepts</li></ul>
+          <ul class="tags"><li>Subnetting</li><li>VLAN concepts</li><li>Network segmentation</li><li>DNS filtering</li><li>Router access controls</li><li>Wireless &amp; RF analysis</li><li>EDR/XDR concepts</li></ul>
         </div>
         <div class="skill">
           <h3>Identity, risk &amp; compliance</h3>
@@ -741,7 +753,7 @@ h2{font:700 clamp(36px,4.8vw,56px)/.98 var(--f-display);text-transform:uppercase
         </div>
         <div class="skill">
           <h3>Systems &amp; scripting</h3>
-          <ul class="tags"><li>Windows administration</li><li>Linux administration (LPI Linux Essentials)</li><li>Kali Linux</li><li>Parrot OS</li><li>Raspberry Pi &amp; ESP32</li><li>SSH &amp; headless setup</li><li>Python</li><li>PowerShell</li><li>Bash</li><li>SQL</li><li>OpenSCAD</li><li>3D printing</li></ul>
+          <ul class="tags"><li>Windows administration</li><li>Linux administration (LPI Linux Essentials)</li><li>Kali Linux</li><li>Parrot OS</li><li>Raspberry Pi &amp; ESP32</li><li>Firmware flashing</li><li>SSH &amp; headless setup</li><li>Python</li><li>PowerShell</li><li>Bash</li><li>SQL</li><li>OpenSCAD</li><li>3D printing</li></ul>
         </div>
         <div class="skill">
           <h3>OT/ICS &amp; plant systems</h3>
